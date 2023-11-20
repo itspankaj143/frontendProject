@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.contain{
+  width: 100%;
+height: 41.0625rem;
+/* border-radius: 2rem; */
+background: linear-gradient(262deg, rgba(0, 111, 237, 0.12) 18.01%, rgba(178, 214, 255, 0.12) 90.03%);
+backdrop-filter: blur(250px);
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+padding: 5rem;
+}
+.outset1{
+  display: flex;
+  flex-direction: column;
+}
+.set1{
+  color: #333;
+
+/* Body300-Rg */
+font-family: Open Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 150% */
+  width:22rem;
+  display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+}
+
+.set2{
+  display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+}
+
+.set2 h4{
+  color: #000C1A;
+text-align: center;
+font-family: Montserrat;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.6875rem; /* 150% */
+letter-spacing: 0.01875rem;
+}
+
+.set2 p{
+  color: #333;
+  width: 12.25rem;
+/* Body300-Rg */
+font-family: Open Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 150% */
+}
+
+.set3{
+  display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.5rem;
+}
+
+.set3 h4{
+  color: #000C1A;
+
+/* H200-blod */
+font-family: Inter;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2rem; /* 150% */
+}
+
+.set3 p{
+  color: #333;
+
+/* Body300-Rg */
+font-family: Open Sans;
+font-size: 01rem;
+font-style: normal;
+font-weight: 400;
+/* line-height: 1rem; 150% */
+width: 10rem;
+margin:-10px;
+}
+
+.outset2{
+  display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 2rem;
+}
+
+.outset2 h4{
+  color: #000C1A;
+  text-align: center;
+  
+  /* H300-bold */
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem; /* 200% */
+}
+
+.outset2 li{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+list-style: none;
+margin-left: -2rem;
+margin-bottom: 0.6rem;
+}
+
+.outset3{
+  display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.5rem;
+}
+
+.outset3 h4{
+  color: #000C1A;
+
+/* H300-bold */
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 200% */
+}
+
+.icons{
+  display: flex;
+width: 17.5rem;
+align-items: flex-start;
+align-content: flex-start;
+gap: 1.5rem;
+flex-wrap: wrap;
+}
+
+.icons i{
+  width: 2rem;
+height: 2rem;
+flex-shrink: 0;
+}

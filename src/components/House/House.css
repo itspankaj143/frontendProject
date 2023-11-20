@@ -1,0 +1,11 @@
+.houseHeaderimage {
+	/* border: 1px solid red; */
+	max-width: 500px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.house-img {
+	width: 100%;
+}

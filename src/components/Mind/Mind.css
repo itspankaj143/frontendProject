@@ -1,0 +1,40 @@
+.mind-card {
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 650px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.mind-card > h3 {
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 32px;
+	margin: 0;
+	margin-top: 10px;
+	line-height: 48px;
+}
+.mind-card > p {
+	font-family: Open Sans;
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 0;
+	line-height: 36px;
+}
+.right-color::before {
+	background-color: #9fc2e7;
+	/* content: '';
+	position: relative;
+	left: -10%;
+	top: 10px;
+	border-radius: 10px;
+	width: 120%;
+	height: 10px; */
+
+	/* border: 1px solid red; */
+}
+.btn4 {
+	margin-top: 40px;
+}
